@@ -22,9 +22,7 @@ sealed interface HeroesUiState{
 
 class HeroesViewModel: ViewModel() {
 
-    //Inalteravel fora da classe
     private var _heroesListUiState: MutableStateFlow<HeroesUiState> = MutableStateFlow(HeroesUiState.Loading)
-    //Acessivel em outras classes
     val heroesListUiState: StateFlow<HeroesUiState> = _heroesListUiState.asStateFlow()
 
     private val _heroStatsUiState: MutableStateFlow<HeroStatsUiState> =

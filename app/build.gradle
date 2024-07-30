@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.api_project'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.api_project"
@@ -65,6 +65,8 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 
+    //Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.7")
     //ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1"
     //Retrofit

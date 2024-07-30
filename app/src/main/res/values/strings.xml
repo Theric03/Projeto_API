@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">API_Project</string>
+    <string name="heroes_list">List of Heroes</string>
+    <string name="hero_stats">Hero Stats</string>
 </resources>
